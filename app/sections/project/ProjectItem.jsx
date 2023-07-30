@@ -51,12 +51,12 @@ export function ProjectItem({ project, index }) {
 						{title}
 					</h3>
 					<p tabIndex="0" className="leading-7 font-light">
-						{description}
+						{description }
 					</p>
 				</header>
 
 				<footer className="flex flex-col gap-10">
-					{!!stack.length && (
+					{!!stack?.length && (
 						<div className="flex-center flex-wrap gap-3">
 							{stack.map((tag) => (
 								<span

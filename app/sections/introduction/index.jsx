@@ -6,7 +6,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
 import { useMediaQuery } from "utils";
-
+const urlResume = `https://drive.google.com/file/d/1_vtzqrMKVCiI6K-atLiCWnyHpZGiVhEI/view?usp=sharing`;
 export function WelcomeSection() {
 	const ref = useRef(null);
 	const introRef = useRef(null);
@@ -16,10 +16,11 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
+		"build Mobile apps using Kotlin/Flutter",
 		"convert design into modern UI",
-		"build interactive UI using React",
-		"develop websites using Next.js"
+		"build interactive UI using Next Js",
+		"build websites using Laravel",
+		"build backend using Express JS"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -52,7 +53,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Vasile</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Ilham Wahidudin</mark> a <mark>passionate</mark> fullstack developer.
 							</p>
 						</h1>
 
@@ -111,13 +112,13 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
-								onClick={onClick}
+								href={urlResume}
 								tabIndex="0"
 								className="btn"
-								aria-label="Latest projects"
+								aria-label="Download resume"
+								target="_blank"
 							>
-								See my latest projects
+								Download Resume
 							</Link>
 						</div>
 					</div>

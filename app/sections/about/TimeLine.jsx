@@ -4,11 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey as a Flutter developer" },
-	{ year: 2022, text: "Start my journey as a React developer" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2018, text: "Work as a WordPress developer" },
-	{ year: 2017, text: "Start a 3mo WordPress internship" }
+	{ year: 2022, month:'Oct', text: "Work as a Full Stack Developer in Deepa Digital Indonesia" },
+	{ year: 2022, month:'Jun', text: "Work as a Backend Developer in Yatech Studio" },
+	{ year: 2021, month:'Jun', text: "Work as a 3mo Laravel Developer Internship" },
+	{ year: 2020, month:'Dec', text: "Start a Freelance Full Stack Developer" }
 ];
 
 export function TimeLine() {
@@ -85,14 +84,14 @@ export function TimeLine() {
 							>
 								<h3
 									tabIndex="0"
-									aria-label={"What do I do in " + item.year}
+									aria-label={`What do I do in ${item.month} ${item.year}` }
 									className="flex items-center gap-4 text-2xl font-bold"
 								>
-									{`${item.year}`}
+									{` ${item.month} ${item.year}`}
 									<svg
-										width="208"
+										width="90"
 										height="6"
-										viewBox="0 0 208 6"
+										viewBox="0 0 90 6"
 										xmlns="http://www.w3.org/2000/svg"
 										fill={colorMode === "dark" ? "#fff" : "#232323"}
 									>
