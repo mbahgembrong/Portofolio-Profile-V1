@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { TbBrandJavascript, TbBrandNextjs } from "react-icons/tb";
-import { FaReact } from "react-icons/fa";
+import { TbBrandJavascript, TbBrandKotlin, TbBrandNextjs } from "react-icons/tb";
+import { FaLaravel, FaPython, FaReact } from "react-icons/fa";
 import { FilterButton } from "./FilterButton";
 
 export function Filter({ onClick = (f) => f }) {
@@ -36,25 +36,25 @@ export function Filter({ onClick = (f) => f }) {
 						All
 					</FilterButton>
 					<FilterButton
-						onClick={() => handleFilterClick("React")}
-						label="React"
-						active={activeFilter === "React"}
+						onClick={() => handleFilterClick("Laravel")}
+						label="Laravel"
+						active={activeFilter === "Laravel"}
 					>
-						<FaReact size="20" />
+						<FaLaravel size="20" />
 					</FilterButton>
 					<FilterButton
-						onClick={() => handleFilterClick("Next")}
-						label="Next"
-						active={activeFilter === "Next"}
+						onClick={() => handleFilterClick("Kotlin")}
+						label="Kotlin"
+						active={activeFilter === "Kotlin"}
 					>
-						<TbBrandNextjs size="20" />
+						<TbBrandKotlin size="20" />
 					</FilterButton>
 					<FilterButton
-						onClick={() => handleFilterClick("Javascript")}
-						label="Javascript"
-						active={activeFilter === "Javascript"}
+						onClick={() => handleFilterClick("Python")}
+						label="Python"
+						active={activeFilter === "Python"}
 					>
-						<TbBrandJavascript size="20" />
+						<FaPython size="20" />
 					</FilterButton>
 				</div>
 			</div>

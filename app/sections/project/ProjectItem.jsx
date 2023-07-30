@@ -51,7 +51,7 @@ export function ProjectItem({ project, index }) {
 						{title}
 					</h3>
 					<p tabIndex="0" className="leading-7 font-light">
-						{description }
+						{description || '' }
 					</p>
 				</header>
 
