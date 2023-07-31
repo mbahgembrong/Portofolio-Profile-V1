@@ -6,7 +6,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
 import { useMediaQuery } from "utils";
-const urlResume = `https://drive.google.com/file/d/1_vtzqrMKVCiI6K-atLiCWnyHpZGiVhEI/view?usp=sharing`;
+const urlResume = `https://drive.google.com/file/d/1r-1eEBpSmJDeQoiWL7oQI4nRLfbtaZTH/view?usp=sharing`;
 export function WelcomeSection() {
 	const ref = useRef(null);
 	const introRef = useRef(null);
