@@ -89,9 +89,9 @@ export function TimeLine() {
 								>
 									{` ${item.month} ${item.year}`}
 									<svg
-										width="90"
+										width="80"
 										height="6"
-										viewBox="0 0 90 6"
+										viewBox="0 0 80 6"
 										xmlns="http://www.w3.org/2000/svg"
 										fill={colorMode === "dark" ? "#fff" : "#232323"}
 									>

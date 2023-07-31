@@ -6,13 +6,7 @@ import { BsBootstrap } from "react-icons/bs";
 import { TbBrandKotlin, TbBrandLaravel, TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import { RiFlutterFill } from "react-icons/ri";
 import AdobeXDIcon from "public/assets/svg/adobexd.svg";
-import ZeplinIcon from "public/assets/svg/zeplin.svg";
-import WebstormIcon from "public/assets/svg/webstorm.svg";
-import JiraIcon from "public/assets/svg/jira.svg";
-import HeadlessUiIcon from "public/assets/svg/headlessui.svg";
-import MuiIcon from "public/assets/svg/mui.svg";
-import ChakraIcon from "public/assets/svg/chakraui.svg";
-import StyledIcon from "public/assets/svg/styledcomponents.svg";
+import BurpsuiteIcon from "public/assets/svg/burpsuite.svg";
 
 export const TECHNOLOGIES = [
 	{
@@ -49,7 +43,8 @@ export const TECHNOLOGIES = [
 			{ name: "Trello", icon: <FaTrello size={32} /> },
 			{ name: "Github", icon: <AiFillGithub size={32} /> },
 			{ name: "Gitlab", icon: <AiFillGitlab size={32} /> },
-			{ name: "VsCode", icon: <DiVisualstudio size={32} /> }
+			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },
+			{ name: "Burpsuite", icon: <BurpsuiteIcon width={32} /> }
 		]
 	}
 ];
