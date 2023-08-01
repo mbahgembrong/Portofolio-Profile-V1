@@ -30,7 +30,7 @@ export function AboutSection() {
 						<p>
 							A skilled Fullstack developer with 2+ years in website and android app development using PHP, Javascript and Kotlin.
 						</p>
-						<p> am always willing to learn new technologies in fullstack development, to provide innovative and efficient software development solutions.</p>
+						<p>I am always willing to learn new technologies in fullstack development, to provide innovative and efficient software development solutions.</p>
 						<p>
 							I am committed to continuously improving my skills and knowledge, to provide the best results in software development.
 						</p>
