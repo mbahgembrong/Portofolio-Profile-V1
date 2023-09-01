@@ -17,7 +17,7 @@ export function WelcomeSection() {
 	let [count, setCount] = useState(0);
 	const [text] = useState([
 		"build Mobile apps using Kotlin/Flutter",
-		"convert design into modern UI",
+		"convert your idea to code",
 		"build interactive UI using Next Js",
 		"build websites using Laravel",
 		"build backend using Express JS"
